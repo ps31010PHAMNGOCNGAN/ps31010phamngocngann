@@ -1,0 +1,116 @@
+body{
+  padding:0px;
+  margin:0px;
+}
+.container{
+ max-width: 1000px;         
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+  color: #ea1e81;
+}
+.container > header{
+  background-image: url();
+  background-size:auto;
+  height: 0px;
+  padding-bottom: 25%;   
+  
+}
+.menu ul {
+  background: #ea1e81;
+  list-style-type: none;
+  text-align: center;
+}
+.menu li {
+  color: #f1f1f1;
+  display: inline-block;
+  width: 120px;
+  height: 50px;
+  line-height: 40px;
+  margin-left: -5px;
+}
+.menu a {
+  text-decoration: none;
+  color: #fff;
+}
+.menu a:hover {
+  color: #333;
+}
+  .wapper {
+    width: 400px;
+    margin: 10px auto;
+    border: 1px solid #ffdde1;
+    padding: 50px;
+}
+
+.form-group {
+    margin: 10px 0;
+}
+
+.form-control {
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 2px;
+    margin: 5px 0;
+}
+
+.form-control:focus {
+    background-color: yellow;
+    box-shadow: 0 0 5px red;
+}
+
+.form-b0tton {
+    margin-top: 20px;
+    padding: 10px 30px;
+    outline: none;
+    border: none;
+    border-radius: 40px;
+    font-weight: bold;
+    background-color: orangered;
+    box-shadow: inset 0 0 20px blue;
+}
+
+.form-b0tton:hover {
+    background: pink;
+    box-shadow: 0 0 5px pink;
+}
+
+.vmenu>li {
+    padding: 0px;
+    margin: 5px;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: 0px 0px 2px rgb(49, 97, 76);
+    min-width: 200px;
+}
+
+#email {
+    width: 300px;
+    height: 30px;
+}
+
+#email:hover {
+    background-color: rgb(249, 249, 207);
+    box-shadow: 5px 5px 5px black;
+    border: 1px solid rgb(248, 248, 208);
+}
+
+footer {
+  width: 100%;
+  background:rgb(236, 198, 204);
+  color:rgb(228, 92, 112);
+
+}
+.footer-bottom {
+  background: #000;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer-bottom p{
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
